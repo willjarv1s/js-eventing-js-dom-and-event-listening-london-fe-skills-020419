@@ -37,5 +37,22 @@
         </div>
       </div>
     </div>
+  
+  
+  <script> 
+    const main = document.getElementById("main");
+    main.addEventListener("mouseover", function( event ) {   
+    event.target.style.color = "orange";
+    
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 2000);
+  }, false);
+    
+      
+      
+  </script>
+  
   </body>
+  
 </html>
